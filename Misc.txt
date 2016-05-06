@@ -2,3 +2,25 @@ Misc info.
 
 Html
 javascript
+
+<!-- Common Q & A, Surface preparation, Type of Paints, 
+     Painting tools, Primer, Future topic, About-->
+     
+<!-- <section> -->
+<section>
+<div id="QA1">
+  <p><b><h1>Commonly asked question and answers</h1></b></p>
+     <p><h3>I would like to paint, what do i need to do ?</h3></p>
+       <ol>
+           <li>Determine what part of the property you want to paint.</li>
+           <li>Determine the approximate size of the area you want to paint.</li>
+           <li>Determine if you want your room to look warm or cool.</li>
+           <li>Determine if you want your room to look flat or shinny.</li>
+           <li>Pre-Determine the kind of color you want painted, note: the darker the color the warmer the 
+               room will feel and vice versa.</li>
+           <li>Pay attention also to the kind lighting your room has, the type of color will greatly 
+               affects the general feel of the room, ex. if you have a bright room, and you choose a cool color
+               , it will make the room more brighter and wider and vice versa.</li>    
+        </ol>               
+        <p>With your answers ready, visit a paint store, a paint associate would ask you some typical question to help you in your 
+        project, here are some common ones to prepare you.</p>
