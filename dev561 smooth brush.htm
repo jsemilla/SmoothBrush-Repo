@@ -34,7 +34,7 @@ header {
     padding:7px;	 
     position:absolute;
     /*z-index:10000;*/
-    top:0;right:0;left:0;
+    top:0;right:0px;left:0;
     font-family: 'Source Sans Pro', sans-serif;
 
  }
@@ -59,13 +59,14 @@ section {
     float:left;
     font-size: 20px;
     padding:40px;
-    position:relative;
-    top:160px;left:100px;
+    position: absolute;
+    /*position:relative;*/
+    top:160px;left:270px;
     border:10px solid lightslategray /*light grey*/;
     font-family: 'Source Sans Pro', sans-serif;
  }
 
-.section2 {
+/*.section2 {
     background-color:#fff ;
     color:blue;
     width:680px;
@@ -76,7 +77,7 @@ section {
     top:190px;left:284px;
     border:10px solid lightslategray ;
     font-family: 'Source Sans Pro', sans-serif;
- }
+ }*/
 
  aside { background-color:lightslategray;
         color:white;
@@ -87,7 +88,6 @@ section {
         position:fixed;
         top:150px;left:1105px;
         font-family: 'Source Sans Pro', sans-serif;
-
  }
 
  ul {list-style: none;padding: 0px;margin: 0px;}
@@ -182,6 +182,7 @@ th, td {
     
 </nav>
 
+<!--
 <aside>
   <p>
   <ul>
@@ -196,10 +197,10 @@ th, td {
    </ul>
  </p>
 </aside>
-
-<div id="Top">
- <section>
-  <h1>What is Smooth Brush</h1>
+-->
+<section>
+ <div id="Top">
+   <h1>What is Smooth Brush</h1>
    <p>Smooth brush is a quick guide on how to paint, it gives simple and quick answers to common question related
       to painting, it gives straightforward simple answers to day to day painting inquiries. It is a one stop shop on how to paint.
    </p>
@@ -210,15 +211,12 @@ th, td {
       and paint tool maintenance (a complete paint cycle),  plus there are other how-to information,  
       that will assist you in your future painting projects.
    </p>
- </section>
-</div>
+ </div><hr>
 
-<!-- Common Q & A, Surface preparation, Type of Paints, 
+ <!-- Common Q & A, Surface preparation, Type of Paints, 
      Painting tools, Primer, Future topic, About-->
      
-<!-- <section> -->
-<section>
-<div id="QA1">
+ <div id="QA1">
   <p><b><h1>Commonly asked question and answers</h1></b></p>
      <p><h3>I would like to paint, what do i need to do ?</h3></p>
        <ol>
@@ -270,7 +268,7 @@ th, td {
             <p>Tip: the thicker the sleeves the less drag.</p>
         <li>Drop sheets (optional, you can use news papers or any sheets).</li>
         <li>Dry wall repair kits (Only if the wall needs repairing).</li>
-        </ol></p>
+        </ol></p><hr>
         
   <p id="QA2"><h3>How do i repair a crack on my dry wall ?</h3>
      <b>To repair the drywall, you need to</b><br>
@@ -281,12 +279,12 @@ th, td {
          <p>Tip: use a 120 grit for smoothing.</p>
      <li>Clean the smoothened repaired area.</li>
      <li>You now have the option to paint.</li>
-     </ol></p>
+     </ol></p><hr>
 
    <p id="QA3"><h3>Do i need to apply primer or can i apply paint and primer in one ?</h3>
      Traditionally primer is applied first then after the primer has dried you may proceed to apply the paint,
      today there are paints that are classified as paint and primer in one, you do not need to apply a seperate primer, you may apply this type 
-     of paint to save you time and money.</p>
+     of paint to save you time and money.</p><hr>
 
    <p id="QA4"><h3>How do I apply the paint ?</h3>
     <ol>
@@ -307,12 +305,9 @@ th, td {
         <li>If you wish to apply a second coat, wait for the first layer to dry for an hour, then apply the second coat.</li>
         <li>After painting, let the paint to dry, and then carefully remove the tape.</li>       
     </ol>        
-</div>
-</section>
+ </div><hr>
 
-<section class="section2">   
  <div id="SP1">
-
   <p><h2><b>Surface Preparation</b></h2></p>
   <p><b>Previously painted surface</b><br>
     <ol>
@@ -332,10 +327,8 @@ th, td {
      <li>Smoothen any drywall mad.</li>
      <li>Apply a primer for drywall.</li>
      </ol></p>
- </div>
-</section>
+ </div><hr>
 
-<section class="section2">   
  <div id="TP1">
   <p><h2><b>Type of Paints</b></h2></p>
   <p><b>Latex paint</b><br>
@@ -348,7 +341,7 @@ th, td {
         <li>The paint dries faster.</li>
         <li>Paint that is "100% acrylic" has binders that are durable and very flexible It has greater resistance
              to  different paint failures like blistering, flaking and peeling.</li> 
-    </ol></p>
+    </ol></p><hr>
 
   <p><b>Oil based paint</b><br>
     <ol>
@@ -358,10 +351,8 @@ th, td {
       <li>The paint dries longer, usually more than an hour.</li>
       <li>The paint will get brittle through time.</li> 
     </ol></p>
- </div>
-</section>  
+ </div><hr>
 
-<section class="section2">   
  <div id="PT1">
   <p><h2><b>Painting tools</b></h2><p>
      <p><img src="Painters tape.jpg" width="55" height="55" ><b>&nbsp Painters tape</b><br>
@@ -396,7 +387,7 @@ th, td {
             <li>The roller sleeves is inserted on the paint roller.</il>
             <li>This tool is used to spread the paint over the wall.</li>
         </ol></p>    
-     <p><img src="drop sheets.jpg" width="55" height="55" ><b>&nbsp Drop sheets</b><br>
+     <p><img src="drop sheets.JPG" width="55" height="55" ><b>&nbsp Drop sheets</b><br>
         <ol>
         <li>Use drop sheets to cover surfaces that you want protected from paint spillage.</li>
         <li>Drop sheets comes in different sizes to comform to your needs.</li>
@@ -433,11 +424,8 @@ th, td {
               could rinse the brush under a warm running water or you can wipe it off using a rag.</li>
           <li>If the paint you are using is a latex based paint, the solvent you will use is water to dilute the paint.</li>    
        </ol></p>
- </div>
-</section>           
+ </div><hr>
 
-
-<section class="section2">   
  <div id="PR1">
   <p><h2><b>Primer</b></h2></p>
   <p><b>Primer qualities</b><br>
@@ -446,12 +434,10 @@ th, td {
      <li>A primer makes the paint adheres to the surface.</li>
      <li>A primer hides stains found on the surface.</li>
      <li>A primer eliminates odors radiating from the surface.</li>
-    </ol></p>
+    </ol></p><hr>
    
   </div>
- </section>
 
-<section class="section2">  
  <img src="businessman-looking-giant-future-text-digital-animation-57468922.jpg"
       height="70" width="190"/> 
  <div id="ftp">
@@ -462,17 +448,30 @@ th, td {
      <li>Deck Cleaning.</li>
      <li>Deck Staining.</li>
     </ol>
-  </p> 
+  </p> <hr>
  </div>
-</section>
 
-<section class="section2">   
  <div id="About">
   <p><b>Smooth Brush</b> is designed for quick learning and is simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors,
      but cannot warrant full correctness of all content. Designed and Developed 2016 by ijaisem.com.  All Rights Reserved.
-  </p> 
+  </p> <hr>
  </div>
 </section>
- 
+
+<aside>
+  <p>
+  <ul>
+      <li><a href="#Top">What is SmoothBrush</a></li>
+      <li><a href="#QA1">Common Q & A</a></li>
+      <li><a href="#SP1">Surface preparation</a></li>
+      <li><a href="#TP1">Type of Paints</a></li>
+      <li><a href="#PT1">Painting tools</a></li>
+      <li><a href="#PR1">Primer</a></li>
+      <li><a href="#ftp">Future topic</a></li>
+      <li><a href="#About">About</a></li>
+   </ul>
+ </p>
+</aside>
+
 </body>
 </html>
